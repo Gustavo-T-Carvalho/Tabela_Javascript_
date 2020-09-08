@@ -17,6 +17,8 @@ botaoAdicionar.addEventListener("click", function (event) {
       adicionaPacienteNaTabela(paciente);
     });
     }else{
+
+        
         console.log(xhr.status);
         console.loh(xhr.response);
         var erroAjax = document.querySelector("#erro-ajax")
